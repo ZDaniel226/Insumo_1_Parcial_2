@@ -1,0 +1,10 @@
+.miElemento {
+    display: flex;/* o cualquier valor de display que desees por defecto */
+  }
+  
+  /* Media Query para pantallas con ancho máximo de 600px */
+  @media screen and (max-width: 500px) {
+    .miElemento {/* Oculta el elemento cuando el ancho es igual o menor a 600px */
+      display: none;
+    }
+  }
